@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mansour.ig.pointscalculator.Aust7">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/background"
+        android:scaleType="fitXY"
+        android:alpha=".09" />
+    <ProgressBar
+        android:id="@+id/indicator7"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="#020c5b"
+        android:progressBackgroundTint="#ff00"
+        android:max="140"
+        />
+    <TextView
+        android:id="@+id/score7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your points are:"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:alpha=".9"/>
+
+
+    <TextView
+        android:id="@+id/osw"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Skilled employment in the last 10 years – outside Australia"
+        android:textColor="#020c5b"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:alpha=".9"/>
+
+    <Spinner
+        android:id="@+id/option4"
+        style="@style/MySpinnerLook"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp" />
+    <Button
+        android:id="@+id/next7"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="410dp"
+        android:background="#020c5b"
+        android:text="next"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/prev7"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="410dp"
+        android:background="#020c5b"
+        android:text="previous"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9339624373452507/1396809905">
+    </com.google.android.gms.ads.AdView>
+</android.widget.RelativeLayout>

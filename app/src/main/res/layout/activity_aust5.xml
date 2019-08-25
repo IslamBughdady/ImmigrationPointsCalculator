@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mansour.ig.pointscalculator.Aust5">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".09"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/background" />
+
+    <ProgressBar
+        android:id="@+id/indicator5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="1dp"
+        android:background="#020c5b"
+        android:max="140"
+        android:progressBackgroundTint="#ff00" />
+
+    <TextView
+        android:id="@+id/score5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:alpha=".9"
+        android:text="your points are:"
+        android:textColor="#ff00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/py"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:alpha=".9"
+        android:text="Professional year in Australia"
+        android:textColor="#020c5b"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:alpha=".8"
+        android:text="Have you completed a professional year in Australia in your occupation following your studies?...(available for accountants, engineers and IT professionals)"
+        android:textColor="#ff00"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/yesorno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="310dp"
+        android:background="#fd020c5b">
+
+        <RadioButton
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#ff00"
+            android:onClick="pressed_2"
+            android:text="Yes "
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#ff00"
+            android:fontFamily="serif"
+            android:onClick="pressed_2"
+            android:text="No "
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next5"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="410dp"
+        android:background="#020c5b"
+        android:text="next"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/prev5"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="410dp"
+        android:background="#020c5b"
+        android:text="previous"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9339624373452507/8736243878">
+    </com.google.android.gms.ads.AdView>
+</android.widget.RelativeLayout>

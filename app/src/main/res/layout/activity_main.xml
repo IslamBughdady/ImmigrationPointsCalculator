@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mansour.ig.pointscalculator.MainActivity"
+    android:background="@drawable/cover">
+
+
+    <Button
+        android:id="@+id/Aus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="#60141414"
+        android:text="Let's gooo!!"
+        android:textSize="18dp"
+        android:fontFamily="serif"
+        android:textColor="#e3c5b358"
+        android:textStyle="bold" />
+
+
+
+</android.widget.RelativeLayout>

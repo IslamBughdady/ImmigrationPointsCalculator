@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Immigration Calculator</string>
+    <string-array name="age">
+        <item>Under 18</item>
+        <item>18-24</item>
+        <item>25-32</item>
+        <item>33-39</item>
+        <item>40-44</item>
+    </string-array>
+
+    <string-array name="level">
+        <item>Competent</item>
+        <item>Proficient</item>
+        <item>Superior</item>
+    </string-array>
+
+
+    <string-array name="qualifications">
+        <item>No Recognised Qualifications</item>
+        <item>Recognised phD(Doctorate)</item>
+        <item>Recognised Bachelor degree or higher</item>
+        <item>Recognised Trade Qualifications or Diploma</item>
+        <item>Recognised award or qualification </item>
+
+    </string-array>
+    <string-array name="workExperience">
+        <item>Less than 3 years</item>
+        <item>3-4 years</item>
+        <item>5-7 years</item>
+        <item>8-10 years</item>
+    </string-array>
+    <string-array name="AustworkExperience">
+        <item>Less than one year</item>
+        <item>1-2 years</item>
+        <item>3-4 years</item>
+        <item>5-7 years</item>
+        <item>8-10 years</item>
+    </string-array>
+
+</resources>

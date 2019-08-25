@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "885821225353",
+    "firebase_url": "https://pointscalculator-4b5a0.firebaseio.com",
+    "project_id": "pointscalculator-4b5a0",
+    "storage_bucket": "pointscalculator-4b5a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885821225353:android:f039798867ee0fbe",
+        "android_client_info": {
+          "package_name": "com.mansour.ig.pointscalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885821225353-pd1apgqjqr7i8kedgadqol52l7chsfkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mansour.ig.pointscalculator",
+            "certificate_hash": "164ad95178a0a1ad140c5fea41ec796e8e5c984f"
+          }
+        },
+        {
+          "client_id": "885821225353-56qlj0jq5jmq8g7udniqj914g65ag46l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIxArCpJOs-V2en4AoC5ExqbxgSHR-VmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885821225353-56qlj0jq5jmq8g7udniqj914g65ag46l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
